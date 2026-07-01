@@ -1,0 +1,29 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Melting Bites - Haz brillar tus antojos">
+  <defs>
+    <radialGradient id="r" cx="75%" cy="45%" r="55%"><stop offset="0" stop-color="#FFD58A" stop-opacity=".36"/><stop offset="1" stop-color="#160906" stop-opacity="0"/></radialGradient>
+    <linearGradient id="g" x1="0" y1="0" x2="1200" y2="630"><stop stop-color="#160906"/><stop offset=".52" stop-color="#2A1008"/><stop offset="1" stop-color="#5A2814"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="28"/></filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <rect width="1200" height="630" fill="url(#r)"/>
+  <circle cx="950" cy="120" r="230" fill="#E8AD62" opacity=".22" filter="url(#blur)"/>
+  <circle cx="160" cy="530" r="260" fill="#FF6F87" opacity=".13" filter="url(#blur)"/>
+  <g transform="translate(730 95) scale(.68)">
+    <ellipse cx="310" cy="566" rx="172" ry="54" fill="#E8AD62" opacity=".9"/>
+    <ellipse cx="310" cy="553" rx="138" ry="38" fill="#23100A" opacity=".78"/>
+    <path d="M202 220c0-58 48-105 108-105s108 47 108 105v266c0 45-36 82-82 82h-52c-46 0-82-37-82-82V220Z" fill="#32120A"/>
+    <path d="M202 231c35 25 67-15 105 10 34 22 73 11 111-14v89c-38 25-77 36-111 14-38-25-70 15-105-10v-89Z" fill="#A95429"/>
+    <ellipse cx="310" cy="219" rx="107" ry="46" fill="#C46E3F"/>
+    <ellipse cx="310" cy="216" rx="78" ry="27" fill="#2C0F08" opacity=".72"/>
+    <path d="M310 168c-25 42-3 63 0 85 23-34 59-58 0-85Z" fill="#FFD58A"/>
+    <path d="M310 202c-13 19-2 31 0 42 13-17 29-30 0-42Z" fill="#FFF1D0"/>
+    <path d="M310 219V160" stroke="#FFF1D0" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(86 102)">
+    <text x="0" y="84" fill="#FFD58A" font-family="Georgia, serif" font-size="34" font-weight="700" letter-spacing="8">MELTING BITES</text>
+    <text x="0" y="235" fill="#FFF7EA" font-family="Georgia, serif" font-size="110" font-weight="700">Haz brillar</text>
+    <text x="0" y="348" fill="#FFF7EA" font-family="Georgia, serif" font-size="110" font-weight="700">tus antojos</text>
+    <text x="4" y="424" fill="#FFF7EA" opacity=".72" font-family="Arial, sans-serif" font-size="28">Velas comestibles de chocolate para momentos memorables.</text>
+  </g>
+  <path d="M82 515h500" stroke="#FFD58A" stroke-width="2" stroke-opacity=".4"/>
+</svg>

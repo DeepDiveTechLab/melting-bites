@@ -1,0 +1,61 @@
+<svg width="620" height="720" viewBox="0 0 620 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Vela comestible de chocolate</title>
+  <desc id="desc">Vela de chocolate con llama brillante, base dorada y decoración premium.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="56%">
+      <stop offset="0" stop-color="#FFD58A" stop-opacity=".36"/>
+      <stop offset=".58" stop-color="#A94F27" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#160906" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="145" y1="475" x2="478" y2="622">
+      <stop stop-color="#FFF0C5"/>
+      <stop offset=".28" stop-color="#D99A48"/>
+      <stop offset=".58" stop-color="#FFE6A9"/>
+      <stop offset="1" stop-color="#9C5A22"/>
+    </linearGradient>
+    <linearGradient id="choco" x1="239" y1="148" x2="381" y2="504">
+      <stop stop-color="#98512B"/>
+      <stop offset=".25" stop-color="#4B1D10"/>
+      <stop offset=".75" stop-color="#2B0E08"/>
+      <stop offset="1" stop-color="#110403"/>
+    </linearGradient>
+    <linearGradient id="melt" x1="223" y1="202" x2="396" y2="336">
+      <stop stop-color="#D4743F"/>
+      <stop offset=".55" stop-color="#6C2B17"/>
+      <stop offset="1" stop-color="#2A0E08"/>
+    </linearGradient>
+    <filter id="shadow" x="64" y="88" width="500" height="596" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="34" stdDeviation="35" flood-color="#000" flood-opacity=".46"/>
+    </filter>
+    <filter id="flameGlow" x="220" y="0" width="180" height="200" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="620" height="720" fill="url(#bg)"/>
+  <g filter="url(#shadow)">
+    <ellipse cx="310" cy="566" rx="172" ry="54" fill="url(#gold)" opacity=".9"/>
+    <ellipse cx="310" cy="553" rx="138" ry="38" fill="#23100A" opacity=".78"/>
+    <path d="M202 220c0-58 48-105 108-105s108 47 108 105v266c0 45-36 82-82 82h-52c-46 0-82-37-82-82V220Z" fill="url(#choco)"/>
+    <path d="M202 231c35 25 67-15 105 10 34 22 73 11 111-14v89c-38 25-77 36-111 14-38-25-70 15-105-10v-89Z" fill="url(#melt)"/>
+    <path d="M237 318c16 4 26-9 42-4 14 4 19 23 12 42-8 21-28 13-35 34-6 17 5 44-19 57-15 8-34-4-35-23V318h35Z" fill="#A94F27" opacity=".54"/>
+    <path d="M366 307c23-2 34-25 52-40v189c0 30-15 60-40 76-19-18 5-44-5-65-9-19-32-17-28-42 4-24 33-33 23-55-10-22-25-43-2-63Z" fill="#140503" opacity=".25"/>
+    <ellipse cx="310" cy="219" rx="107" ry="46" fill="#C46E3F"/>
+    <ellipse cx="310" cy="216" rx="78" ry="27" fill="#2C0F08" opacity=".72"/>
+    <path d="M310 168c-25 42-3 63 0 85 23-34 59-58 0-85Z" fill="#FFD58A" filter="url(#flameGlow)"/>
+    <path d="M310 202c-13 19-2 31 0 42 13-17 29-30 0-42Z" fill="#FFF1D0"/>
+    <path d="M310 219V160" stroke="#FFF1D0" stroke-width="5" stroke-linecap="round"/>
+    <g opacity=".95">
+      <path d="M160 533c60-37 88-21 150 17 70-42 101-53 164-18-39 69-113 99-165 100-60 0-117-30-149-99Z" fill="url(#gold)"/>
+      <path d="M309 551c-18 22-38 48-32 73 25 6 55 7 83-1 2-27-23-51-51-72Z" fill="#FFDE95" opacity=".8"/>
+      <path d="M185 544c37 8 64 24 92 48-41 3-75-12-92-48ZM435 543c-37 8-64 24-92 48 41 3 75-12 92-48Z" fill="#8E4D1F" opacity=".36"/>
+    </g>
+  </g>
+  <g opacity=".72">
+    <circle cx="148" cy="202" r="6" fill="#FFD58A"/>
+    <circle cx="454" cy="143" r="4" fill="#FFD58A"/>
+    <circle cx="495" cy="344" r="5" fill="#FF6F87"/>
+    <circle cx="111" cy="412" r="4" fill="#FF6F87"/>
+    <path d="M477 232l3 7 7 3-7 3-3 7-3-7-7-3 7-3 3-7ZM142 303l4 9 9 4-9 4-4 9-4-9-9-4 9-4 4-9Z" fill="#FFD58A"/>
+  </g>
+</svg>

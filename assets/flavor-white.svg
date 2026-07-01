@@ -1,0 +1,20 @@
+<svg width="360" height="360" viewBox="0 0 360 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Chocolate blanco">
+  <defs>
+    <radialGradient id="a" cx="50%" cy="44%" r="66%"><stop offset="0" stop-color="#FFF8E6" stop-opacity=".55"/><stop offset="1" stop-color="#160906" stop-opacity="0"/></radialGradient>
+    <linearGradient id="b" x1="139" y1="83" x2="224" y2="257"><stop stop-color="#FFF5D8"/><stop offset=".45" stop-color="#EBCB92"/><stop offset="1" stop-color="#A8733D"/></linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-opacity=".32"/></filter>
+  </defs>
+  <rect width="360" height="360" rx="44" fill="#2A140B"/>
+  <rect x="18" y="18" width="324" height="324" rx="36" fill="url(#a)"/>
+  <g filter="url(#s)">
+    <ellipse cx="180" cy="269" rx="95" ry="30" fill="#F4C979"/>
+    <ellipse cx="180" cy="260" rx="72" ry="21" fill="#6A4727" opacity=".38"/>
+    <path d="M120 119c0-34 27-61 60-61s60 27 60 61v134c0 27-22 49-49 49h-22c-27 0-49-22-49-49V119Z" fill="url(#b)"/>
+    <path d="M120 128c18 13 36-9 58 5 20 12 40 7 62-8v47c-22 15-42 20-62 8-22-14-40 8-58-5v-47Z" fill="#FFF3D6" opacity=".85"/>
+    <ellipse cx="180" cy="120" rx="60" ry="25" fill="#FFF0C7"/>
+    <ellipse cx="180" cy="118" rx="42" ry="14" fill="#D8A762" opacity=".52"/>
+    <path d="M180 53c-15 24-2 37 0 50 13-20 34-34 0-50Z" fill="#FFD58A"/>
+    <path d="M180 82V50" stroke="#FFF1D0" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <path d="M78 259c44 20 72 25 101 25s63-7 103-27" stroke="#FFF7E9" stroke-opacity=".38" stroke-width="2"/>
+</svg>
